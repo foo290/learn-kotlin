@@ -1,12 +1,21 @@
+import kotlin.math.PI
+import kotlin.math.sqrt
+
+class DummyTesla(val model: String, batteryLife: String) {
+
+    // Class method
+    fun accelerate(){
+        println("Accelerating... (Silently!)")
+    }
+}
+
+
 /**
  * Program that implements classes for different kinds of dwellings.
  * Shows how to:
  * Create class hierarchy, variables and functions with inheritance,
  * abstract class, overriding, and private vs. public variables.
  */
-
-import kotlin.math.PI
-import kotlin.math.sqrt
 
 
 /**
@@ -84,7 +93,8 @@ class SquareCabin(residents: Int, val length: Double) : Dwelling(residents) {
  * @param radius Radius
  */
 open class RoundHut(
-    val residents: Int, val radius: Double) : Dwelling(residents) {
+    val residents: Int, val radius: Double
+) : Dwelling(residents) {
 
     override val buildingMaterial = "Straw"
     override val capacity = 4
@@ -121,7 +131,8 @@ open class RoundHut(
 class RoundTower(
     residents: Int,
     radius: Double,
-    val floors: Int = 2) : RoundHut(residents, radius) {
+    val floors: Int = 2
+) : RoundHut(residents, radius) {
 
     override val buildingMaterial = "Stone"
 
