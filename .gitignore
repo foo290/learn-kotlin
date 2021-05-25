@@ -1,6 +1,7 @@
 .idea
 learnKotlin.iml
 out
+META-INF
 # Compiled class file
 *.class
 
