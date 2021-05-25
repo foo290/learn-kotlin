@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src="https://github.com/foo290/learn-kotlin/blob/main/readmePics%20(non-project)/kotlinLogo.png" width="200">
+  <img src="https://github.com/foo290/learn-kotlin/blob/main/readmePics%20(non-project)/kotlinLogo.png" width="100">
   <h1>learn-kotlin</h1>
 </div>
 
